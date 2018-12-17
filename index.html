@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Table</h2>
+
+<form action="server.php" method="post" >
+	<tr>
+		<th>----------First Name----------</th> 
+		<th> ----------Last Name  ---------- </th>
+		<th>-- Gender --</th>
+		<th>------------- USN ----------</th>
+		<th>Branch ----   </th>
+		<th>------Sport ------ ------------- </th>
+		<th>------tournament------   </th>
+		<th>------ Start date ------   </th>
+		<th>------ END date ------   </th>
+	</tr><br>
+	
+	<tr>
+		<td><input type="text" name="fname[]"></td>
+		<td><input type="text" name="lname[]" value="first Name"></td>		
+		<select name=gender[]>
+				<option value="M" >Male</option>
+				<option value="F" >Femal</option>				
+		</select>
+		<td><input type="text" name="USN[]"></td>
+		<select name=branch[]>
+				<option value="CSE" >CSE</option>
+				<option value="ME" >ME</option>
+				<option value="EIE" >EIE</option>
+				<option value="Telecom" >Telecom</option>							
+		</select>
+		<td><input type="text" name="sport[]"></td>
+		<td><input type="text" name="tournament[]"></td>
+		<td><input type="text" name="dateStart[]"></td>
+		<td><input type="text" name="dateend[]"></td>
+		<select name=pos[]>
+				<option value="1" >1</option>
+				<option value="2" >2</option>
+				<option value="3" >3</option>											
+		</select>
+		<select name=sem[]>
+				<option value="1" >1</option>
+				<option value="2" >2</option>
+				<option value="3" >3</option>
+				<option value="4" >4</option>
+				<option value="5" >5</option>
+				<option value="6" >6</option>
+				<option value="7" >7</option>
+				<option value="8" >8</option>											
+		</select>
+	</tr><br><br>
+	<tr>
+			<td><input type="text" name="fname[]"></td>
+			<td><input type="text" name="lname[]"></td>		
+			<select name=gender[]>
+					<option value="M" >Male</option>
+					<option value="F" >Femal</option>				
+			</select>
+			<td><input type="text" name="USN[]"></td>
+			<select name=branch[]>
+					<option value="CSE" >CSE</option>
+					<option value="ME" >ME</option>
+					<option value="EIE" >EIE</option>
+					<option value="Telecom" >Telecom</option>							
+			</select>
+			<td><input type="text" name="sport[]"></td>
+			<td><input type="text" name="tournament[]"></td>
+			<td><input type="text" name="dateStart[]"></td>
+			<td><input type="text" name="dateend[]"></td>
+			<select name=pos[]>
+					<option value="1" >1</option>
+					<option value="2" >2</option>
+					<option value="3" >3</option>											
+			</select>
+			<select name=sem[]>
+					<option value="1" >1</option>
+					<option value="2" >2</option>
+					<option value="3" >3</option>
+					<option value="4" >4</option>
+					<option value="5" >5</option>
+					<option value="6" >6</option>
+					<option value="7" >7</option>
+					<option value="8" >8</option>											
+			</select>
+	</tr><br><br>
+	<tr>
+				<td><input type="text" name="fname[]"></td>
+				<td><input type="text" name="lname[]"></td>		
+				<select name=gender[]>
+						<option value="M" >Male</option>
+						<option value="F" >Femal</option>				
+				</select>
+				<td><input type="text" name="USN[]"></td>
+				<select name=branch[]>
+						<option value="CSE" >CSE</option>
+						<option value="ME" >ME</option>
+						<option value="EIE" >EIE</option>
+						<option value="Telecom" >Telecom</option>							
+				</select>
+				<td><input type="text" name="sport[]"></td>
+				<td><input type="text" name="tournament[]"></td>
+				<td><input type="text" name="dateStart[]"></td>
+				<td><input type="text" name="dateend[]"></td>
+				<select name=pos[]>
+						<option value="1" >1</option>
+						<option value="2" >2</option>
+						<option value="3" >3</option>											
+				</select>
+				<select name=sem[]>
+						<option value="1" >1</option>
+						<option value="2" >2</option>
+						<option value="3" >3</option>
+						<option value="4" >4</option>
+						<option value="5" >5</option>
+						<option value="6" >6</option>
+						<option value="7" >7</option>
+						<option value="8" >8</option>											
+				</select>
+	</tr><br><br>
+	<tr>
+			<td><input type="text" name="fname[]"></td>
+			<td><input type="text" name="lname[]"></td>		
+			<select name=gender[]>
+					<option value="M" >Male</option>
+					<option value="F" >Femal</option>				
+			</select>
+			<td><input type="text" name="USN[]"></td>
+			<select name=branch[]>
+					<option value="CSE" >CSE</option>
+					<option value="ME" >ME</option>
+					<option value="EIE" >EIE</option>
+					<option value="Telecom" >Telecom</option>							
+			</select>
+			<td><input type="text" name="sport[]"></td>
+			<td><input type="text" name="tournament[]"></td>
+			<td><input type="text" name="dateStart[]"></td>
+			<td><input type="text" name="dateend[]"></td>
+			<select name=pos[]>
+					<option value="1" >1</option>
+					<option value="2" >2</option>
+					<option value="3" >3</option>											
+			</select>
+			<select name=sem[]>
+					<option value="1" >1</option>
+					<option value="2" >2</option>
+					<option value="3" >3</option>
+					<option value="4" >4</option>
+					<option value="5" >5</option>
+					<option value="6" >6</option>
+					<option value="7" >7</option>
+					<option value="8" >8</option>											
+			</select>
+	</tr><br><br>
+	<tr>
+			<td><input type="text" name="fname[]"></td>
+			<td><input type="text" name="lname[]"></td>		
+			<select name=gender[]>
+					<option value="M" >Male</option>
+					<option value="F" >Femal</option>				
+			</select>
+			<td><input type="text" name="USN[]"></td>
+			<select name=branch[]>
+					<option value="CSE" >CSE</option>
+					<option value="ME" >ME</option>
+					<option value="EIE" >EIE</option>
+					<option value="Telecom" >Telecom</option>							
+			</select>
+			<td><input type="text" name="sport[]"></td>
+			<td><input type="text" name="tournament[]"></td>
+			<td><input type="text" name="dateStart[]"></td>
+			<td><input type="text" name="dateend[]"></td>
+			<select name=pos[]>
+					<option value="1" >1</option>
+					<option value="2" >2</option>
+					<option value="3" >3</option>											
+			</select>
+			<select name=sem[]>
+					<option value="1" >1</option>
+					<option value="2" >2</option>
+					<option value="3" >3</option>
+					<option value="4" >4</option>
+					<option value="5" >5</option>
+					<option value="6" >6</option>
+					<option value="7" >7</option>
+					<option value="8" >8</option>											
+			</select>
+	</tr><br><br>
+	<tr>
+			<td><input type="text" name="fname[]"></td>
+			<td><input type="text" name="lname[]"></td>		
+			<select name=gender[]>
+					<option value="M" >Male</option>
+					<option value="F" >Femal</option>				
+			</select>
+			<td><input type="text" name="USN[]"></td>
+			<select name=branch[]>
+					<option value="CSE" >CSE</option>
+					<option value="ME" >ME</option>
+					<option value="EIE" >EIE</option>
+					<option value="Telecom" >Telecom</option>							
+			</select>
+			<td><input type="text" name="sport[]"></td>
+			<td><input type="text" name="tournament[]"></td>
+			<td><input type="text" name="dateStart[]"></td>
+			<td><input type="text" name="dateend[]"></td>
+			<select name=pos[]>
+					<option value="1" >1</option>
+					<option value="2" >2</option>
+					<option value="3" >3</option>											
+			</select>
+			<select name=sem[]>
+					<option value="1" >1</option>
+					<option value="2" >2</option>
+					<option value="3" >3</option>
+					<option value="4" >4</option>
+					<option value="5" >5</option>
+					<option value="6" >6</option>
+					<option value="7" >7</option>
+					<option value="8" >8</option>											
+			</select>
+	</tr><br><br>
+	<input type="submit">
+	</form>
+
+</body>
+</html>
